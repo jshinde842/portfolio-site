@@ -44,6 +44,7 @@ header nav h1 a{
   padding-left:1em;
   font-size: 2.5em;
   color: var(--bg-color2);
+  white-space: nowrap;
 }
 
 nav ul a:hover {
