@@ -28,7 +28,10 @@ header {
     box-sizing: border-box;
 
 }
-
+.master-logo {
+  justify-content: left;
+  padding-left: 1em;
+}
 html {
     scroll-behavior: smooth;
   }
