@@ -144,6 +144,10 @@ nav ul li {
   flex-direction: row;
   justify-content: center;
 }
+.aboutme-socials-flex .social-icon {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
 .edu-flex {
   display: flex;
   flex-direction: column;
@@ -315,6 +319,5 @@ body {
 }
 
 .social-icon {
-  
   color: var(--bg-color1);
 }
