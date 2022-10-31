@@ -1,1 +1,0 @@
-//couldn't figure out to export a class so i made an inline script instead in nativedialogs.html

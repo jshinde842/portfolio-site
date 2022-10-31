@@ -1,1 +1,0 @@
-https://idyllic-starship-b3865f.netlify.app/index.html
