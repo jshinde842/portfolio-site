@@ -338,7 +338,7 @@ ion-icon {
 .navigation2 {
   display: none;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1153px) {
   .navigation {
     display: none;
   }
