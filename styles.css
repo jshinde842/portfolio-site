@@ -309,3 +309,8 @@ body {
   to { background-color: #DAB081; }
   from { background-color: #D19D61; }
 }
+
+.social-icon {
+  background-color: var(--bg-color1);
+  color: var(--bg-color3);
+}
