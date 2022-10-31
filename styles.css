@@ -41,7 +41,8 @@ nav ul {
 }
 
 header nav h1 a{
-  margin-left:1em;
+  justify-content: left;
+  padding-left:1em;
   font-size: 2.5em;
   color: var(--bg-color2);
 }
