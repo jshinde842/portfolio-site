@@ -1,0 +1,43 @@
+.blog-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: #272838;
+}
+
+.blog-flex h1{
+    color: #D19D61;
+}
+
+.blog-flex li{
+    line-height: 1.5;
+    background-color: #272838;
+    color: white;
+    padding: 3em;
+    margin: 1em;
+}
+
+.blog-flex button{
+    color: #D19D61;
+    background-color: #272838;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s;
+    margin: 1em;
+}
+
+.blog-flex button:hover{
+    background-color: #D19D61;
+    color: #272838;
+}
+#addBlog{
+    background-color: #272838;
+    color: #D19D61;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+#addBlog:hover{
+    color: #272838;
+    background-color: #D19D61;
+}
