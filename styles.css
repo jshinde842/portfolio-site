@@ -86,7 +86,7 @@ nav a {
 
 nav ul {
     display: flex;
-    gap: 1.9rem;
+    gap: 1.5rem;
     font-size: 1.25em;
     padding-right: 2em;
 }
@@ -335,58 +335,4 @@ body {
 }
 ion-icon {
   font-size: 32px;
-}
-
-/* Hamburger Menu Button */
-#ham-button {
-  display: none;
-}
-
-/* Switch to hamburger menu on small devices */
-@media only screen and ( max-width:768px) {
-  #side-menu {display: none; width: 100%;}
-  #ham-button {display: block;}
-}
-.side-menu a:hover {
-  background-color: darkred;
-  color: white;
-  -webkit-transition: background-color 0.6s ease-out, color 0.6s ease-out;
-  -moz-transition: background-color 0.6s ease-out, color 0.6s ease-out;
-  -o-transition: background-color 0.6s ease-out, color 0.6s ease-out;
-  transition: background-color 0.6s ease-out, color 0.6s ease-out;
-}
-
-/* Side Menu Container */
-.side-menu {
-  background-color: #111;
-  padding: 10px;
-  border-radius: 9px;
-  color: #F4FFFE;
-  font-family: Helvetica, sans-serif;
-  box-sizing: border-box;
-  width: 25%;
-}
-
-/* Side Menu Links */
-.side-menu a {
-  display: block;
-  color: #818181;
-  padding: 8px;
-  font-size: 26px;
-  border-radius: 6px;
-}
-
-/* When mouse hover on links in side Menu */
-.side-menu a:hover {
-  background-color: darkred;
-  color: white;
-  -webkit-transition: background-color 0.6s ease-out, color 0.6s ease-out;
-  -moz-transition: background-color 0.6s ease-out, color 0.6s ease-out;
-  -o-transition: background-color 0.6s ease-out, color 0.6s ease-out;
-  transition: background-color 0.6s ease-out, color 0.6s ease-out;
-}
-
-/* Side Menu Heading */
-.side-menu h3 {
-  padding: 8px;
 }
