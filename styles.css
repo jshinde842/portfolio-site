@@ -315,5 +315,6 @@ body {
 }
 
 .social-icon {
-  color: var(--bg-color3);
+  
+  color: var(--bg-color1);
 }
