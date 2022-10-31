@@ -139,7 +139,11 @@ nav ul li {
   line-height: 1.5;
   text-align: center;
 }
-
+.aboutme-socials-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .edu-flex {
   display: flex;
   flex-direction: column;
@@ -311,6 +315,5 @@ body {
 }
 
 .social-icon {
-  background-color: var(--bg-color1);
   color: var(--bg-color3);
 }
