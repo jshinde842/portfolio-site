@@ -1,5 +1,5 @@
-# CSE134B-SS22-HW%
-# Name: Jay Shinde
-# PID: A15398617
+Welcome to the source files for my portfolio site!
 
-URL: 
+Link: jayshinde.dev
+
+I used raw HTML/CSS/JS.
