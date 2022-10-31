@@ -139,26 +139,7 @@ nav ul li {
   line-height: 1.5;
   text-align: center;
 }
-.weblinkLI {
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
-.weblinkG {
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
-.weblinkLI:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-.weblinkG:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
+
 .edu-flex {
   display: flex;
   flex-direction: column;
