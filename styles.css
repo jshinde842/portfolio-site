@@ -338,11 +338,11 @@ ion-icon {
 .navigation2 {
   display: none;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .navigation {
     display: none;
   }
   .navigation2 {
-    display: block;
+    display: unset;
   }
 }
