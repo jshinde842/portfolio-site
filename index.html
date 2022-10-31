@@ -9,12 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
 </head>
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
 <body> 
     <header>
         <nav>
-            <h1 class="master-logo"><a href="/index.html">Jay Shinde</a></h1>
+            <h1><a href="/index.html">Jay Shinde</a></h1>
             <ul class="navigation">
                 <li><a href="/index.html#about" class="nav-link">About Me</a></li>
                 <li><a href="/index.html#edu" class="nav-link">Education</a></li>
@@ -23,6 +22,16 @@
                 <li><a href="/index.html#proj" class="nav-link">Projects</a></li>
             </ul>
         </nav>
+        <button onclick="toggle()" id="ham-button" class="ham-button"><i class="fas fa-bars"></i></button>
+        <div class="side-menu" id="side-menu">
+            <h2>Menu</h2>
+
+            <a href="/index.html#about" class="nav-link">About Me</a>
+            <a href="/index.html#edu" class="nav-link">Education</a>
+            <a href="/index.html#exp" class="nav-link">Experience</a>
+            <a href="/index.html#skills" class="nav-link">Skills</a>
+            <a href="/index.html#proj" class="nav-link">Projects</a>
+        </div>
     </header>
 
     <main>
