@@ -330,3 +330,12 @@ body {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+.linkedin:hover {
+  color: #0072b1;
+}
+.github:hover {
+  color: #171515;
+}
+ion-icon {
+  font-size: 32px;
+}
