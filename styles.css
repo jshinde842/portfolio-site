@@ -336,8 +336,8 @@ body {
 ion-icon {
   font-size: 32px;
 }
-@media only screen and (max-width: 600px) {
-  nav {
+@media only screen and (max-width: 768px) {
+  .navigation {
     display: none;
   }
 }
