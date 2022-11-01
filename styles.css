@@ -70,7 +70,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    transition: 0.2s;
+    transition: 0.3s;
     color: var(--nav-color);
     --s: 0.1em;
     --c: var(--hover-color);
@@ -328,8 +328,8 @@ body {
   color: var(--bg-color1);
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .social-icon:hover {
@@ -394,8 +394,8 @@ ion-icon {
   margin: 2em;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
   align-self: center;
 }
 
@@ -446,26 +446,27 @@ ion-icon {
 #button-7 a {
   position: relative;
   left: 0;
-  transition: all .35s ease-Out;
+  transition: all .3s ease-Out;
 }
 
 #dub-arrow {
   width: 100%;
   height: 100%;
-  background: var(--bg-color2);
+  background: var(--bg-color1);
   left: -200px;
   position: absolute;
   padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all .35s ease-Out;
+  transition: all .3s ease-Out;
   bottom: 0;
 }
 
 #button-7 img {
   width: 20px;
   height: auto;
+
 }
 
 #button-7:hover #dub-arrow {
