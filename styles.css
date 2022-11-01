@@ -136,6 +136,7 @@ nav ul li {
 .aboutme-text-flex p {
   line-height: 1.5;
   text-align: center;
+  opacity: 1;
 }
 .aboutme-socials-flex {
   display: flex;
@@ -145,6 +146,7 @@ nav ul li {
 .aboutme-socials-flex .social-icon {
   padding-left: 0.5em;
   padding-right: 0.5em;
+  opacity: 1;
 }
 .edu-flex {
   display: flex;
