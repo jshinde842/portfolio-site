@@ -418,7 +418,6 @@ ion-icon {
     );
 }*/
 .btn {
-  position: absolute;
   width: 150px;
   height: 40px;
   cursor: pointer;
@@ -434,9 +433,6 @@ ion-icon {
   background: var(--bg-color1);
 }
 svg {
-  position:relative;
-  left: 0;
-  top: 0;
   fill: none;
   stroke: #fff;
   stroke-dasharray: 150 480;
