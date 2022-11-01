@@ -466,7 +466,7 @@ ion-icon {
 #button-7 img {
   width: 20px;
   height: auto;
-  color: var(--bg-color2)
+  opacity: 0.1;
 
 }
 
