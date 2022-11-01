@@ -432,7 +432,8 @@ ion-icon {
   transition: 0.3s ease-in-out;
   background: var(--bg-color1);
 }
-.btn svg {
+svg {
+  position:inherit;
   left: 0;
   top: 0;
   fill: none;
