@@ -433,7 +433,7 @@ ion-icon {
   background: var(--bg-color1);
 }
 svg {
-  position:inherit;
+  position:absolute;
   left: 0;
   top: 0;
   fill: none;
