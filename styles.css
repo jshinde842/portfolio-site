@@ -354,8 +354,12 @@ ion-icon {
     flex-wrap: nowrap;
   }
 
-  :root {
+  main {
     font-size: 30px;
+  }
+
+  .f {
+    padding: 1em;
   }
 }
 
