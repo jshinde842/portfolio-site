@@ -432,7 +432,7 @@ ion-icon {
   justify-content: center;
   overflow: hidden;
 }
-.button a {
+.buttontext1 {
   color: var(--bg-color1);
   text-decoration: none;
   letter-spacing: 1px;
@@ -443,35 +443,16 @@ ion-icon {
   cursor: pointer;
 }
 
-#button-7 a {
+.buttontext1 {
   position: relative;
   left: 0;
   transition: all .3s ease-Out;
 }
 
-#dub-arrow {
-  width: 100%;
-  height: 100%;
-  background: var(--bg-color2);
-  left: -200px;
-  position: absolute;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all .3s ease-Out;
-  bottom: 0;
-}
-
-#button-7 img {
-  width: 20px;
-  height: auto;
-}
-
-#button-7:hover #dub-arrow {
+.buttontext2 {
   left: 0;
 }
 
-#button-7:hover a {
+#button-7:hover .buttontext1 {
   left: 150px;
 }
