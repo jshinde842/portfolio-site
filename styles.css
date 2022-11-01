@@ -353,6 +353,10 @@ ion-icon {
     flex-direction: column;
     flex-wrap: nowrap;
   }
+
+  :root {
+    font-size: 30px;
+  }
 }
 
 .ucsd-logo {
