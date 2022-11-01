@@ -110,7 +110,8 @@ nav ul li {
   max-width: 300px;
   flex: 60%;
   margin: 1.5em;
-  border: 5px var(--bg-color1);
+  border: var(--bg-color1);
+  border-width: 5px;
   /*
   -webkit-transform: scale(1);
   transform: scale(1);
