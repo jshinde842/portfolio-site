@@ -12,6 +12,7 @@ body {
   margin: 0em;
   padding: 0em;
   background-image: url(/images/Geometric-Waves-Seamless-Pattern-.png) !important;
+  background-size: 100px;
   /*background-color: var(--bg-color3);*/
   box-sizing: border-box;
   font-family: "Roboto";
