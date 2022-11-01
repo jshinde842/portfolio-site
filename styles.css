@@ -451,7 +451,7 @@ svg {
 .btn span {
   color: var(--bg-color1);
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 150;
 }
 .btn:hover span {
   color: var(--bg-color2);
