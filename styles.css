@@ -375,6 +375,9 @@ ion-icon {
   .aboutme-text-flex {
     margin: 0em;
   }
+  ion-icon {
+    font-size: 64px;
+  }
 }
 
 .ucsd-logo {
