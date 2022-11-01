@@ -418,8 +418,8 @@ ion-icon {
     );
 }*/
 .btn {
-  width: 180px;
-  height: 60px;
+  width: 150px;
+  height: 40px;
   cursor: pointer;
   background: transparent;
   border: 1px solid var(--bg-color1);
@@ -449,7 +449,10 @@ svg {
 }
 
 .btn span {
-  color: white;
-  font-size: 18px;
+  color: var(--bg-color1);
+  font-size: 15px;
   font-weight: 100;
+}
+.btn:hover span {
+  color: var(--bg-color2);
 }
