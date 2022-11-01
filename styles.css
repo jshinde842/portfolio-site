@@ -349,4 +349,8 @@ ion-icon {
     flex-direction: column;
     flex-wrap: nowrap;
   }
+  .exp-verity-flex {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 }
