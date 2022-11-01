@@ -432,14 +432,15 @@ ion-icon {
   transition: 0.3s ease-in-out;
   background: var(--bg-color1);
 }
-.buttoneffect {
-  position: fixed;
+.border {
+  position: absolute;
+  left: 0;
+  top: 0;
   fill: none;
   stroke: #fff;
   stroke-dasharray: 150 480;
   stroke-dashoffset: 150;
   transition: 1s ease-in-out;
-  z-index: 3;
 }
 .btn:hover svg {
   stroke-dashoffset: -480;
