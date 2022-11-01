@@ -444,7 +444,7 @@ svg {
   background: var(--bg-color1);
 }
 .btn svg {
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   fill: none;
