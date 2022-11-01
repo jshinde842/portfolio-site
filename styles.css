@@ -11,7 +11,8 @@
 body {
   margin: 0em;
   padding: 0em;
-  background-color: var(--bg-color3);
+  background-image: url("images/oriental-tiles.png");
+  /*background-color: var(--bg-color3);*/
   box-sizing: border-box;
   font-family: "Roboto";
 }
