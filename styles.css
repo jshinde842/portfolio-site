@@ -380,7 +380,7 @@ ion-icon {
   }
 }
 
-.ucsd-logo {
+.institution-logo {
   margin: 2em;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -389,7 +389,7 @@ ion-icon {
   align-self: center;
 }
 
-.ucsd-logo:hover {
+.institution-logo:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
