@@ -70,7 +70,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.2s;
     color: var(--nav-color);
     --s: 0.1em;
     --c: var(--hover-color);
@@ -279,7 +279,7 @@ nav ul li {
   align-content:left;
 }
 #certlink {
-  transition: 3s;
+  transition: 2s;
 }
 #certlink:hover a{
   color: var(--hover-color);
@@ -328,8 +328,8 @@ body {
   color: var(--bg-color1);
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 .social-icon:hover {
@@ -394,8 +394,8 @@ ion-icon {
   margin: 2em;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
   align-self: center;
 }
 
