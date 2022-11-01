@@ -432,6 +432,11 @@ ion-icon {
   justify-content: center;
   overflow: hidden;
 }
+.button a {
+  color: #BFC0C0;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
 #button-7 {
   position: relative;
   overflow: hidden;
