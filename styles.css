@@ -422,9 +422,10 @@ ion-icon {
   height: 60px;
   cursor: pointer;
   background: transparent;
-  border: 1px solid #91C9FF;
+  border: 1px solid var(--bg-color1);
   outline: none;
-  transition: 1s ease-in-out;
+  transition: 0.3s ease-in-out;
+  margin: 1em;
 }
 
 svg {
@@ -435,12 +436,12 @@ svg {
   stroke: #fff;
   stroke-dasharray: 150 480;
   stroke-dashoffset: 150;
-  transition: 1s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .btn:hover {
-  transition: 1s ease-in-out;
-  background: #4F95DA;
+  transition: 0.3s ease-in-out;
+  background: var(--bg-color1);
 }
 
 .btn:hover svg {
