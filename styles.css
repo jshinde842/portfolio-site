@@ -345,10 +345,8 @@ ion-icon {
   .navigation2 {
     display: unset;
   }
-}
-@media only screen and (max-width: 825px) {
   .edu-ucsd-flex {
-    display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
   }
 }
