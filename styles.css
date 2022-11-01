@@ -433,6 +433,7 @@ ion-icon {
   background: var(--bg-color1);
 }
 .buttoneffect {
+  position: fixed;
   fill: none;
   stroke: #fff;
   stroke-dasharray: 150 480;
