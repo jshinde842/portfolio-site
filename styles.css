@@ -424,6 +424,8 @@ ion-icon {
   border: 2px solid #BFC0C0;
   margin: 20px 20px 20px 20px;
   color: #BFC0C0;
+  text-transform: uppercase;
+  text-decoration: none;
   font-size: .8em;
   letter-spacing: 1.5px;
   align-items: center;
