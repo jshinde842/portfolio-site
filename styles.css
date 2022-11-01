@@ -131,12 +131,10 @@ nav ul li {
   margin: 1.5em;
   background-color: var(--bg-color2);
   flex: 60%;
-  opacity: .8;
 }
 .aboutme-text-flex p {
   line-height: 1.5;
   text-align: center;
-  opacity: 1 !important;
 }
 .aboutme-socials-flex {
   display: flex;
@@ -146,7 +144,6 @@ nav ul li {
 .aboutme-socials-flex .social-icon {
   padding-left: 0.5em;
   padding-right: 0.5em;
-  opacity: 1 !important;
 }
 .edu-flex {
   display: flex;
