@@ -432,7 +432,7 @@ ion-icon {
   transition: 0.3s ease-in-out;
   background: var(--bg-color1);
 }
-svg {
+.buttoneffect {
   fill: none;
   stroke: #fff;
   stroke-dasharray: 150 480;
