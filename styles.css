@@ -183,14 +183,14 @@ nav ul li {
   background-color: var(--bg-color2);
   margin: 3em;
 }
-.exp-verity-flex {
+.exp-institution-flex {
   display: flex;
   flex-direction: row;
   justify-content: left;
   align-items:flex-start;
   padding: 3em;
 }
-.exp-vs-info-flex {
+.exp-institution-info-flex {
   display: flex;
   flex-direction: column;
   padding-left: 3em;
@@ -349,7 +349,7 @@ ion-icon {
     flex-direction: column;
     flex-wrap: nowrap;
   }
-  .exp-verity-flex {
+  .exp-institution-flex {
     flex-direction: column;
     flex-wrap: nowrap;
   }
