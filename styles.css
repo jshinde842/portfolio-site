@@ -418,7 +418,8 @@ ion-icon {
 .topBtn {
   border: 1px solid var(--bg-color2);
   background: var(--bg-color1) !important;
-  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .topBtn:hover {
@@ -427,10 +428,6 @@ ion-icon {
 
 .topBtn span {
   color: var(--bg-color2);
-}
-
-.topBtn:hover span {
-  color: var(--bg-color1);
 }
 
 footer {
