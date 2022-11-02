@@ -444,7 +444,6 @@ ion-icon {
   height: 40px;
   cursor: pointer;
   background: transparent;
-  border: 1px solid var(--bg-color1);
   outline: none;
   transition: 0.3s ease-in-out;
   margin: 1em;
@@ -452,16 +451,45 @@ ion-icon {
 
 .btn:hover {
   transition: 0.3s ease-in-out;
-  background: var(--bg-color1);
 }
 
 .btn span {
-  color: var(--bg-color1);
   font-size: 15px;
   transition: 0.3s ease-in-out;
 }
 .btn:hover span {
-  color: var(--bg-color2);
   font-size: 17px;
   transition: 0.3s ease-in-out;
+}
+
+.blueBtn {
+  border: 1px solid var(--bg-color1);
+}
+
+.blueBtn:hover {
+  background: var(--bg-color1);
+}
+
+.blueBtn span {
+  color: var(--bg-color1);
+}
+
+.blueBtn:hover span {
+  color: var(--bg-color2);
+}
+
+.yellowBtn {
+  border: 1px solid var(--bg-color2);
+}
+
+.yellowBtn:hover {
+  background: var(--bg-color2);
+}
+
+.yellowBtn span {
+  color: var(--bg-color2);
+}
+
+.yellowBtn:hover span {
+  color: var(--bg-color1);
 }
