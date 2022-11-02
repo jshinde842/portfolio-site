@@ -415,6 +415,24 @@ ion-icon {
   color: var(--bg-color1);
 }
 
+.topBtn {
+  border: 1px solid var(--bg-color2);
+  background: var(--bg-color1);
+  justify-self: center;
+}
+
+.topBtn:hover {
+  background: var(--bg-color2);
+}
+
+.topBtn span {
+  color: var(--bg-color2);
+}
+
+.topBtn:hover span {
+  color: var(--bg-color1);
+}
+
 footer {
   background-color: var(--bg-color1);
   font-family:Verdana, Geneva, Tahoma, sans-serif !important;
