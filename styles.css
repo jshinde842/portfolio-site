@@ -417,8 +417,8 @@ ion-icon {
 
 .topBtn {
   border: 1px solid var(--bg-color2);
-  background: var(--bg-color1);
-  justify-self: center;
+  background: var(--bg-color1) !important;
+  align-self: center;
 }
 
 .topBtn:hover {
