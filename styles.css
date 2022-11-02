@@ -418,7 +418,6 @@ ion-icon {
 .topBtn {
   border: 1px solid var(--bg-color2);
   background: var(--bg-color1) !important;
-  text-align: center;
 }
 
 .topBtn:hover {
