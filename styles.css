@@ -218,6 +218,19 @@ nav ul li {
   align-items: center;
 }
 
+.proj-flex h2{
+  color: white;
+}
+.proj-flex h3{
+  color: white;
+  min-width: 10em;
+}
+.proj-flex p{
+  color: white;
+  padding-left: 3em;
+  line-height: 1.5;
+}
+
 .proj-project-flex {
   display: flex;
   flex-direction: row;
@@ -227,25 +240,6 @@ nav ul li {
   padding-top: 1.5em;
   padding-right: 3em;
   padding-bottom: 1.5em;
-}
-
-.f1 {
-  display: flex;
-  flex-direction: row;
-  margin: 3em;
-  text-align: left;
-}
-.huffman {
-  display: flex;
-  flex-direction: row;
-  margin: 3em;
-  text-align: left;
-}
-.traffic {
-  display: flex;
-  flex-direction: row;
-  margin: 3em;
-  text-align: left;
 }
 
 .skills-flex {
