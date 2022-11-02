@@ -28,6 +28,7 @@ header {
     margin: 0em;
     padding: 0em;
     box-sizing: border-box;
+    border-bottom: 5px solid var(--bg-color1);
 
 }
 
@@ -440,6 +441,6 @@ ion-icon {
 }
 .btn:hover span {
   color: var(--bg-color2);
-  font-size: 18px;
+  font-size: 17px;
   transition: 0.3s ease-in-out;
 }
