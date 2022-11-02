@@ -29,7 +29,6 @@ header {
     padding: 0em;
     box-sizing: border-box;
     border-bottom: 5px solid var(--bg-color1);
-
 }
 
 html {
@@ -414,4 +413,12 @@ ion-icon {
 
 .yellowBtn:hover span {
   color: var(--bg-color1);
+}
+
+footer {
+  background-color: var(--bg-color1);
+  font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+  margin: 0em;
+  padding: 3em;
+  box-sizing: border-box;
 }
