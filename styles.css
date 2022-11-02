@@ -181,6 +181,10 @@ nav ul li {
   padding-bottom: 1em;
 }
 
+.edu-institution-flex a{
+  justify-self: flex-start;
+}
+
 .exp-flex {
   display: flex;
   flex-direction: column;
