@@ -1,3 +1,3 @@
 if(!window.location.hash) {
-    location.hash = '#top';
+    location.hash = '#home';
 }
