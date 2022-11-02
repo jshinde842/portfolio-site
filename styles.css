@@ -194,7 +194,10 @@ nav ul li {
   flex-direction: row;
   justify-content: space-around;
   align-items:flex-start;
-  padding: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .exp-institution-info-flex {
