@@ -170,7 +170,7 @@ nav ul li {
   padding-left: 3em;
   line-height: 1.5;
 }
-.edu-ucsd-flex {
+.edu-institution-flex {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -234,14 +234,11 @@ nav ul li {
 .proj-project-flex {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: space-around;
   align-items:flex-start;
-  padding-left: 3em;
-  padding-top: 1.5em;
-  padding-right: 3em;
-  padding-bottom: 1.5em;
+  padding: 3em;
+  margin-top: 0em;
 }
-
 .skills-flex {
   display: flex;
   flex-direction: column;
