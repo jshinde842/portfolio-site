@@ -183,7 +183,6 @@ nav ul li {
 
 .edu-institution-flex a{
   align-self:flex-start;
-  justify-self: center;
 }
 
 .exp-flex {
@@ -207,6 +206,9 @@ nav ul li {
   padding-bottom: 1em;
 }
 
+.exp-institution-flex a{
+  align-self:flex-start;
+}
 .exp-institution-info-flex {
   display: flex;
   flex-direction: column;
@@ -249,6 +251,11 @@ nav ul li {
   padding-top: 1em;
   padding-bottom: 1em;
 }
+
+.proj-project-flex a{
+  align-self:flex-start;
+}
+
 .skills-flex {
   display: flex;
   flex-direction: column;
