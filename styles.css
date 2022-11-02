@@ -418,7 +418,7 @@ ion-icon {
 footer {
   background-color: var(--bg-color1);
   font-family:Verdana, Geneva, Tahoma, sans-serif !important;
-  margin-top: 4em;
+  margin-top: 4.5em;
   padding: 3em;
   box-sizing: border-box;
 }
