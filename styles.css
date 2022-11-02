@@ -416,6 +416,7 @@ ion-icon {
 }
 
 .topBtn {
+  margin-top: 0;
   border: 1px solid var(--bg-color2);
   background: var(--bg-color1) !important;
 }
@@ -431,7 +432,7 @@ ion-icon {
 footer {
   background-color: var(--bg-color1);
   font-family:Verdana, Geneva, Tahoma, sans-serif !important;
-  margin-top: 4.5em;
+  margin-top: 3em;
   padding: 3em;
   box-sizing: border-box;
 }
