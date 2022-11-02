@@ -183,6 +183,7 @@ nav ul li {
 
 .edu-institution-flex a{
   align-self:flex-start;
+  justify-self: center;
 }
 
 .exp-flex {
