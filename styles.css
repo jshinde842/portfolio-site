@@ -207,6 +207,47 @@ nav ul li {
   border-color: #272838;
 }
 
+.proj-flex {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid var(--bg-color2);
+  background-color: var(--bg-color1);
+  padding: 3em;
+  margin: 3em;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.proj-project-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items:flex-start;
+  padding-left: 3em;
+  padding-top: 1.5em;
+  padding-right: 3em;
+  padding-bottom: 1.5em;
+}
+
+.f1 {
+  display: flex;
+  flex-direction: row;
+  margin: 3em;
+  text-align: left;
+}
+.huffman {
+  display: flex;
+  flex-direction: row;
+  margin: 3em;
+  text-align: left;
+}
+.traffic {
+  display: flex;
+  flex-direction: row;
+  margin: 3em;
+  text-align: left;
+}
+
 .skills-flex {
   display: flex;
   flex-direction: column;
@@ -284,34 +325,6 @@ nav ul li {
 }
 #certlink:hover a{
   color: var(--hover-color);
-}
-.flex-proj {
-  display: flex;
-  flex-direction: column;
-  border: 5px solid var(--bg-color1);
-  background-color: var(--bg-color2);
-  padding: 3em;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-}
-.f1 {
-  display: flex;
-  flex-direction: row;
-  margin: 3em;
-  text-align: left;
-}
-.huffman {
-  display: flex;
-  flex-direction: row;
-  margin: 3em;
-  text-align: left;
-}
-.traffic {
-  display: flex;
-  flex-direction: row;
-  margin: 3em;
-  text-align: left;
 }
 
 body {
