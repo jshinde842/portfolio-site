@@ -146,7 +146,7 @@ nav ul li {
   line-height: 1.5;
 }
 .aboutme-portrait {
-  max-width: 300px;
+  max-width: 300px !important;
   flex: 60%;
   margin: 1.5em;
   border: 2px solid var(--border-color);
