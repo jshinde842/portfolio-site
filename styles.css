@@ -29,6 +29,7 @@ body {
   border-radius: 25px;
   background-color: var(--bg-color1);
   border: 5px solid var(--border-color);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 main {
@@ -463,3 +464,5 @@ footer {
   box-sizing: border-box;
   border-top: 5px solid var(--border-color)
 }
+
+
