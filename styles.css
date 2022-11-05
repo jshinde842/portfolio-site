@@ -31,12 +31,9 @@ body h2{
 }
 body h3{
   color: var(--bg-color2);
-  min-width: 10em;
 }
 body p{
   color: var(--bg-color2);
-  padding-left: 3em;
-  line-height: 1.5;
 }
 
 .box {
@@ -136,15 +133,11 @@ nav ul li {
   padding: 1.5em;
   flex-wrap: wrap;
 }
-.aboutme-flex h2{
-  color: white;
-}
+
 .aboutme-flex h3{
-  color: white;
   min-width: 10em;
 }
 .aboutme-flex p{
-  color: white;
   padding-left: 3em;
   padding-right: 1.5em;
   line-height: 1.5;
@@ -200,15 +193,10 @@ nav ul li {
   /*border: 5px solid var(--bg-color2);*/
   margin: 3em;
 }
-.edu-flex h2{
-  color: white;
-}
 .edu-flex h3{
-  color: white;
   min-width: 10em;
 }
 .edu-flex p{
-  color: white;
   padding-left: 3em;
   line-height: 1.5;
 }
@@ -236,15 +224,10 @@ nav ul li {
   /*border: 5px solid var(--bg-color1);*/
   margin: 3em;
 }
-.exp-flex h2{
-  color: white;
-}
 .exp-flex h3{
-  color: white;
   min-width: 10em;
 }
 .exp-flex p{
-  color: white;
   padding-left: 3em;
   padding-right: 1.5em;
   line-height: 1.5;
@@ -282,15 +265,10 @@ nav ul li {
   align-items: center;
 }
 
-.proj-flex h2{
-  color: white;
-}
 .proj-flex h3{
-  color: white;
   min-width: 10em;
 }
 .proj-flex p{
-  color: white;
   padding-left: 3em;
   padding-right: 1.5em;
   line-height: 1.5;
