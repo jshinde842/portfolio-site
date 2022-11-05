@@ -452,14 +452,14 @@ footer {
     font-size: 64px;
   }
   .btn {
-    width: 250px;
-    height: 140px;
+    width: 400px;
+    height: 100px;
   }
   .btn span {
-    font-size: 20px;
+    font-size: 30px;
   }
   .btn:hover span {
-    font-size: 22px;
+    font-size: 32px;
   }
   .topBtn {
     margin-top: 2em;
