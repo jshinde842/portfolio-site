@@ -438,3 +438,7 @@ footer {
   padding: 3em;
   box-sizing: border-box;
 }
+
+.box {
+  border-radius: 25px;
+}
