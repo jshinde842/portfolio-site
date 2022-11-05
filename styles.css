@@ -378,6 +378,14 @@ ion-icon {
   color: var(--bg-color2);
 }
 
+.project-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 3em;
+  margin: 3em;
+  justify-content: space-around;
+  align-items: center;
+}
 
 footer {
   background-color: var(--bg-color1);
