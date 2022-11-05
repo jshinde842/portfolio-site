@@ -19,7 +19,7 @@
 }
 
 body {
-  margin: auto;
+  margin: 0em;
   padding: 0em;
   background: var(--bg-color2);
   /*background-image: url(/images/Visiwig-Leaf-Alternates-2.svg) !important;
