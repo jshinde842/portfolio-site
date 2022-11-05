@@ -418,11 +418,15 @@ footer {
   .navigation2 {
     display: unset;
   }
-  .edu-ucsd-flex {
+  .edu-institution-flex {
     flex-direction: column;
     flex-wrap: nowrap;
   }
   .exp-institution-flex {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .proj-project-flex {
     flex-direction: column;
     flex-wrap: nowrap;
   }
