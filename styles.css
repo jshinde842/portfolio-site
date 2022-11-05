@@ -265,13 +265,8 @@ nav ul li {
   align-self:flex-start;
 }
 
-@keyframes fadeBackground {
-  to { background-color: #DAB081; }
-  from { background-color: #D19D61; }
-}
-
 .social-icon {
-  color: var(--bg-color1);
+  color: var(--bg-color2);
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: .3s ease-in-out;
@@ -387,35 +382,35 @@ ion-icon {
 }
 
 .blueBtn {
-  border: 1px solid var(--bg-color1);
-}
-
-.blueBtn:hover {
-  background: var(--bg-color1);
-}
-
-.blueBtn span {
-  color: var(--bg-color1);
-}
-
-.blueBtn:hover span {
-  color: var(--bg-color2);
-}
-
-.yellowBtn {
   border: 1px solid var(--bg-color2);
 }
 
-.yellowBtn:hover {
+.blueBtn:hover {
   background: var(--bg-color2);
 }
 
-.yellowBtn span {
+.blueBtn span {
   color: var(--bg-color2);
 }
 
-.yellowBtn:hover span {
+.blueBtn:hover span {
   color: var(--bg-color1);
+}
+
+.yellowBtn {
+  border: 1px solid var(--bg-color1);
+}
+
+.yellowBtn:hover {
+  background: var(--bg-color1);
+}
+
+.yellowBtn span {
+  color: var(--bg-color1);
+}
+
+.yellowBtn:hover span {
+  color: var(--bg-color2);
 }
 
 .topBtn {
