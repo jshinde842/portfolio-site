@@ -424,6 +424,12 @@ footer {
   body h3{
     font-size: 2em !important;
   }
+  .btn {
+    align-self: center;
+  }
+  .institution-logo {
+    align-self: center;
+  }
   .edu-institution-flex {
     flex-direction: column;
     flex-wrap: nowrap;
