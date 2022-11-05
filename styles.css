@@ -2,12 +2,6 @@
     --name-color: black;
     --nav-color: black;
     --hover-color: white;
-    /*
-    --bg-color1: #272838;
-    --bg-color2: #D19D61;
-    --bg-color3: #DAB081;
-    */
-    /*--bg-color1: #D25F57;*/
     --bg-color1: #823F44;
     --bg-color2: #e4dece;
     --border-color: black;
@@ -22,9 +16,6 @@ body {
   margin: 0em;
   padding: 0em;
   background: var(--bg-color2);
-  /*background-image: url(/images/Visiwig-Leaf-Alternates-2.svg) !important;
-  background-size: 300px !important;
-  background-color: var(--bg-color3);*/
   box-sizing: border-box;
   font-family: "Roboto";
 }
@@ -43,7 +34,6 @@ body p{
   border-radius: 25px;
   background-color: var(--bg-color1);
   border: 2px solid var(--border-color);
-  /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -79,14 +69,12 @@ header nav h1 a{
 }
 
 nav ul a:hover {
-    /*color: var(--hover-color);*/
     color: var(--hover-color);
     --_p: 100%
 }
 
 nav {
   position: sticky;
-
   top: 0;
   left: 0;
   z-index: 1;
@@ -95,7 +83,6 @@ nav {
   justify-content: space-between;
   padding: 0rem 0rem;
   background-image: linear-gradient(to right, var(--bg-color1), 65%, var(--bg-color2)) !important;
-  /*box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);*/
 }
 
 nav a {
@@ -108,12 +95,9 @@ nav a {
     background: 
     linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
     linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
-  -webkit-background-clip: text,padding-box;
-          background-clip: text,padding-box;
-    /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
+    -webkit-background-clip: text,padding-box;
+    background-clip: text,padding-box;
 }
-
-
 
 nav ul {
     display: flex;
@@ -121,12 +105,6 @@ nav ul {
     font-size: 1.25em;
     padding-right: 2em;
 }
-/*
-nav ul li {
-  font-weight: var(--bold-font);
-}
-*/
-
 
 .aboutme-flex {
   display: flex;
@@ -140,29 +118,21 @@ nav ul li {
 .aboutme-flex h3{
   min-width: 10em;
 }
+
 .aboutme-flex p{
   padding-left: 3em;
   padding-right: 1.5em;
   line-height: 1.5;
 }
+
 .aboutme-portrait {
   max-width: 300px !important;
   flex: 60%;
   margin: 1.5em;
   border: 2px solid var(--border-color);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  /*
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-  */
 }
-/*
-.aboutme-portrait:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}*/
+
 .aboutme-text-flex {
   display: flex;
   flex-direction: column;
@@ -170,7 +140,6 @@ nav ul li {
   align-items: center;
   padding: 3em;
   margin: 1.5em;
-  /*border: 5px solid var(--bg-color1);*/
   flex: 60%;
 }
 .aboutme-text-flex p {
@@ -193,7 +162,6 @@ nav ul li {
   justify-content: space-around;
   align-items: center;
   padding: 3em;
-  /*border: 5px solid var(--bg-color2);*/
   margin: 3em;
 }
 .edu-flex h3{
@@ -224,12 +192,13 @@ nav ul li {
   justify-content: space-around;
   align-items: center;
   padding: 3em;
-  /*border: 5px solid var(--bg-color1);*/
   margin: 3em;
 }
+
 .exp-flex h3{
   min-width: 10em;
 }
+
 .exp-flex p{
   padding-left: 3em;
   padding-right: 1.5em;
@@ -246,6 +215,7 @@ nav ul li {
   padding-top: 1em;
   padding-bottom: 1em;
 }
+
 .exp-institution-flex a{
   align-self:flex-start;
 }
@@ -261,7 +231,6 @@ nav ul li {
 .proj-flex {
   display: flex;
   flex-direction: column;
-  /*border: 5px solid var(--bg-color2);*/
   padding: 3em;
   margin: 3em;
   justify-content: space-around;
@@ -271,6 +240,7 @@ nav ul li {
 .proj-flex h3{
   min-width: 10em;
 }
+
 .proj-flex p{
   padding-left: 3em;
   padding-right: 1.5em;
@@ -304,15 +274,19 @@ nav ul li {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
 .linkedin:hover {
   color: #0072b1;
 }
+
 .github:hover {
   color: #171515;
 }
+
 ion-icon {
   font-size: 32px;
 }
+
 .institution-logo {
   margin: 2em;
   -webkit-transform: scale(1);
@@ -326,23 +300,11 @@ ion-icon {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
 .navigation2 {
   display: none;
 }
-/*
-.f {
-  clip-path: 
-    polygon(
-      0% var(--notchSize), 
-      var(--notchSize) 0%, 
-      calc(100% - var(--notchSize)) 0%, 
-      100% var(--notchSize), 
-      100% calc(100% - var(--notchSize)), 
-      calc(100% - var(--notchSize)) 100%, 
-      var(--notchSize) 100%, 
-      0% calc(100% - var(--notchSize))
-    );
-}*/
+
 .btn {
   width: 150px;
   height: 40px;
@@ -361,6 +323,7 @@ ion-icon {
   font-size: 15px;
   transition: 0.3s ease-in-out;
 }
+
 .btn:hover span {
   font-size: 17px;
   transition: 0.3s ease-in-out;
