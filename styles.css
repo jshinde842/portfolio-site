@@ -418,6 +418,9 @@ footer {
   .navigation2 {
     display: unset;
   }
+  body h3{
+    font-size: 1em !important;
+  }
   .edu-institution-flex {
     flex-direction: column;
     flex-wrap: nowrap;
