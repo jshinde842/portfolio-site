@@ -418,6 +418,9 @@ footer {
   .navigation2 {
     display: unset;
   }
+  body h2{
+    font-size: 3em !important;
+  }
   body h3{
     font-size: 2em !important;
   }
