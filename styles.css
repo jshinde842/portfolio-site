@@ -29,7 +29,7 @@ body {
 .box {
   border-radius: 25px;
   background-color: var(--bg-color1);
-  border: 5px solid #0000;
+  border: 5px solid black;
 }
 
 main {
