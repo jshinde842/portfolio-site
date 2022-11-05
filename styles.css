@@ -419,7 +419,7 @@ footer {
     display: unset;
   }
   body h3{
-    font-size: 1em !important;
+    font-size: 2em !important;
   }
   .edu-institution-flex {
     flex-direction: column;
