@@ -29,8 +29,7 @@ body {
 .box {
   border-radius: 25px;
   background-color: var(--bg-color1);
-  border-color: #000;
-  border-width: 5px;
+  border: 5px solid #0000;
 }
 
 main {
@@ -138,7 +137,7 @@ nav ul li {
   max-width: 300px;
   flex: 60%;
   margin: 1.5em;
-  border: 5px solid var(--bg-color2);
+  border: 5px solid var(--bg-color1);
   /*
   -webkit-transform: scale(1);
   transform: scale(1);
