@@ -18,12 +18,17 @@
 body {
   margin: 0em;
   padding: 0em;
-  background: var(--color-raspBlush);
+  background: var(--bg-color2);
   /*background-image: url(/images/Visiwig-Leaf-Alternates-2.svg) !important;
   background-size: 300px !important;
   background-color: var(--bg-color3);*/
   box-sizing: border-box;
   font-family: "Roboto";
+}
+
+.box {
+  border-radius: 25px;
+  background-color: var(--bg-color1);
 }
 
 main {
@@ -139,7 +144,6 @@ nav ul li {
   padding: 3em;
   margin: 1.5em;
   /*border: 5px solid var(--bg-color1);*/
-  background-color: var(--bg-color2);
   flex: 60%;
 }
 .aboutme-text-flex p {
@@ -162,7 +166,6 @@ nav ul li {
   align-items: center;
   padding: 3em;
   /*border: 5px solid var(--bg-color2);*/
-  background-color: var(--bg-color2);
   margin: 3em;
 }
 .edu-flex h2{
@@ -199,7 +202,6 @@ nav ul li {
   align-items: center;
   padding: 3em;
   /*border: 5px solid var(--bg-color1);*/
-  background-color: var(--bg-color2);
   margin: 3em;
 }
 .exp-institution-flex {
@@ -228,7 +230,6 @@ nav ul li {
   display: flex;
   flex-direction: column;
   /*border: 5px solid var(--bg-color2);*/
-  background-color: var(--bg-color2);
   padding: 3em;
   margin: 3em;
   justify-content: space-around;
@@ -437,8 +438,4 @@ footer {
   margin-top: 3em;
   padding: 3em;
   box-sizing: border-box;
-}
-
-.box {
-  border-radius: 25px;
 }
