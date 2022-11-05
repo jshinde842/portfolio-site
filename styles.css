@@ -313,6 +313,19 @@ nav ul li {
 ion-icon {
   font-size: 32px;
 }
+.institution-logo {
+  margin: 2em;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  align-self: center;
+}
+
+.institution-logo:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 .navigation2 {
   display: none;
 }
