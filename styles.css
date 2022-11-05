@@ -118,7 +118,7 @@ nav ul li {
   max-width: 300px;
   flex: 60%;
   margin: 1.5em;
-  border: 5px solid var(--bg-color1);
+  border: 5px solid var(--bg-color2);
   /*
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -138,7 +138,7 @@ nav ul li {
   align-items: center;
   padding: 3em;
   margin: 1.5em;
-  border: 5px solid var(--bg-color1);
+  /*border: 5px solid var(--bg-color1);*/
   background-color: var(--bg-color2);
   flex: 60%;
 }
@@ -161,8 +161,8 @@ nav ul li {
   justify-content: space-around;
   align-items: center;
   padding: 3em;
-  border: 5px solid var(--bg-color2);
-  background-color: var(--bg-color1);
+  /*border: 5px solid var(--bg-color2);*/
+  background-color: var(--bg-color2);
   margin: 3em;
 }
 .edu-flex h2{
@@ -198,7 +198,7 @@ nav ul li {
   justify-content: space-around;
   align-items: center;
   padding: 3em;
-  border: 5px solid var(--bg-color1);
+  /*border: 5px solid var(--bg-color1);*/
   background-color: var(--bg-color2);
   margin: 3em;
 }
@@ -227,8 +227,8 @@ nav ul li {
 .proj-flex {
   display: flex;
   flex-direction: column;
-  border: 5px solid var(--bg-color2);
-  background-color: var(--bg-color1);
+  /*border: 5px solid var(--bg-color2);*/
+  background-color: var(--bg-color2);
   padding: 3em;
   margin: 3em;
   justify-content: space-around;
