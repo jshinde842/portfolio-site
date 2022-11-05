@@ -13,9 +13,10 @@
 body {
   margin: 0em;
   padding: 0em;
-  background-image: url(/images/Visiwig-Leaf-Alternates-2.svg) !important;
+  background: var(--color-raspBlush);
+  /*background-image: url(/images/Visiwig-Leaf-Alternates-2.svg) !important;
   background-size: 300px !important;
-  /*background-color: var(--bg-color3);*/
+  background-color: var(--bg-color3);*/
   box-sizing: border-box;
   font-family: "Roboto";
 }
@@ -256,12 +257,6 @@ nav ul li {
 
 .proj-project-flex a{
   align-self:flex-start;
-}
-
-body {
-  background: #DAB081;
-  animation: fadeBackground 5s;
-  animation-fill-mode:forwards;
 }
 
 @keyframes fadeBackground {
