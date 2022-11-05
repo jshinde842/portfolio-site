@@ -119,6 +119,19 @@ nav ul li {
   padding: 1.5em;
   flex-wrap: wrap;
 }
+.aboutme-flex h2{
+  color: white;
+}
+.aboutme-flex h3{
+  color: white;
+  min-width: 10em;
+}
+.aboutme-flex p{
+  color: white;
+  padding-left: 3em;
+  padding-right: 1.5em;
+  line-height: 1.5;
+}
 .aboutme-portrait {
   max-width: 300px;
   flex: 60%;
@@ -150,6 +163,7 @@ nav ul li {
   line-height: 1.5;
   text-align: center;
 }
+
 .aboutme-socials-flex {
   display: flex;
   flex-direction: row;
@@ -204,6 +218,20 @@ nav ul li {
   /*border: 5px solid var(--bg-color1);*/
   margin: 3em;
 }
+.exp-flex h2{
+  color: white;
+}
+.exp-flex h3{
+  color: white;
+  min-width: 10em;
+}
+.exp-flex p{
+  color: white;
+  padding-left: 3em;
+  padding-right: 1.5em;
+  line-height: 1.5;
+}
+
 .exp-institution-flex {
   display: flex;
   flex-direction: row;
@@ -214,10 +242,10 @@ nav ul li {
   padding-top: 1em;
   padding-bottom: 1em;
 }
-
 .exp-institution-flex a{
   align-self:flex-start;
 }
+
 .exp-institution-info-flex {
   display: flex;
   flex-direction: column;
