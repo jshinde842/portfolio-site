@@ -425,10 +425,10 @@ footer {
     font-size: 2em !important;
   }
   .btn {
-    justify-content: baseline;
+    align-self: center !important;
   }
   .institution-logo {
-    justify-self:baseline;
+    align-self: center !important;
   }
   .edu-institution-flex {
     flex-direction: column;
