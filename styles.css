@@ -5,13 +5,15 @@
     --bg-color1: #272838;
     --bg-color2: #D19D61;
     --bg-color3: #DAB081;
+    --color-raspBlush: #D25F57;
+    --color-sailCloth: #e4dece;
     --outline: white; 
     --notchSize: 20px;
 }
 body {
   margin: 0em;
   padding: 0em;
-  background-image: url(/images/background.jpg) !important;
+  background-image: url(/images/Visiwig-Leaf-Alternates-2.svg) !important;
   background-size: 300px !important;
   /*background-color: var(--bg-color3);*/
   box-sizing: border-box;
