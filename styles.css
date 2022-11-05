@@ -26,14 +26,14 @@ body {
   font-family: "Roboto";
 }
 
-.body h2{
+body h2{
   color: var(--bg-color2);
 }
-.body h3{
+body h3{
   color: var(--bg-color2);
   min-width: 10em;
 }
-.body p{
+body p{
   color: var(--bg-color2);
   padding-left: 3em;
   line-height: 1.5;
