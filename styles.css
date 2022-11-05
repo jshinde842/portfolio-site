@@ -36,7 +36,7 @@ header {
     margin: 0em;
     padding: 0em;
     box-sizing: border-box;
-    border-bottom: 5px solid var(--bg-color1);
+    border-bottom: 5px solid var(--bg-color2);
 }
 
 html {
