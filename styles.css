@@ -9,9 +9,7 @@
     */
     --bg-color1: #D25F57;
     --bg-color2: #e4dece;
-    --bg-color3: #e4dece;
-    --color-raspBlush: #D25F57;
-    --color-sailCloth: #e4dece;
+    --border-color: black;
     --outline: white; 
     --notchSize: 20px;
 }
@@ -29,7 +27,7 @@ body {
 .box {
   border-radius: 25px;
   background-color: var(--bg-color1);
-  border: 5px solid white;
+  border: 5px solid var(--border-color);
 }
 
 main {
@@ -42,7 +40,7 @@ header {
     margin: 0em;
     padding: 0em;
     box-sizing: border-box;
-    border-bottom: 5px solid var(--bg-color2);
+    border-bottom: 5px solid var(--border-color);
 }
 
 html {
@@ -137,7 +135,7 @@ nav ul li {
   max-width: 300px;
   flex: 60%;
   margin: 1.5em;
-  border: 5px solid var(--bg-color1);
+  border: 5px solid var(--border-color);
   /*
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -462,4 +460,5 @@ footer {
   margin-top: 3em;
   padding: 3em;
   box-sizing: border-box;
+  border-top: 5px solid var(--border-color)
 }
