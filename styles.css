@@ -390,6 +390,16 @@ ion-icon {
   align-items: center;
 }
 
+.container {
+  width: 500px;
+  clear: both;
+}
+
+.container input {
+  width: 100%;
+  clear: both;
+}
+
 footer {
   background-color: var(--bg-color1);
   font-family:Verdana, Geneva, Tahoma, sans-serif !important;
