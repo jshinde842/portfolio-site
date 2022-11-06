@@ -399,6 +399,10 @@ ion-icon {
   width: 100%;
   clear: both;
 }
+.container textarea {
+  width: 100%;
+  clear: both;
+}
 
 input[type=text] {
   padding:10px;
