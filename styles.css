@@ -373,6 +373,9 @@ ion-icon {
   background: var(--bg-color2);
   border-radius: 0px;
 }
+.topBtn:hover span {
+  font-size: 30px !important;
+}
 
 .topBtn span {
   color: var(--bg-color2);
