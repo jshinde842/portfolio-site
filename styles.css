@@ -400,6 +400,16 @@ ion-icon {
   clear: both;
 }
 
+input[type=text] {
+  padding:10px;
+  margin:10px 0;
+}
+
+input[type=email] {
+  padding:10px;
+  margin:10px 0;
+}
+
 footer {
   background-color: var(--bg-color1);
   font-family:Verdana, Geneva, Tahoma, sans-serif !important;
