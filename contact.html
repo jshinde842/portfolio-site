@@ -43,11 +43,12 @@
             <h2>Contact Me</h2>
 
             <div class="container">
-                <form name="contact" netlify method="POST">
+                <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                     <input class="contactField" type="text" name="name" placeholder="Name" required>
                     <input class="contactField" type="email" name="email" placeholder="Email" required>
                     <input class="contactField" type="text" name="subject" placeholder="Subject (Optional)">
                     <input class="contactFieldLong" type="text" name="message" placeholder="Message" required>
+                    <div data-netlify-recaptcha="true"></div>
                     <button class="btn blueBtn" style="min-width: 170px;" type="submit">
                         <span>Send &rarr;</span>
                     </button>
