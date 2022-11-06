@@ -403,11 +403,20 @@ ion-icon {
 input[type=text] {
   padding:10px;
   margin:10px 0;
+  border-radius: 25px;
 }
 
 input[type=email] {
   padding:10px;
   margin:10px 0;
+  border-radius: 25px;
+}
+
+input::placeholder {
+  font-weight: bold;
+  font-size: 15px;
+  opacity: .5;
+  color: var(--bg-color1);
 }
 
 footer {
