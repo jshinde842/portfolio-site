@@ -391,11 +391,8 @@ ion-icon {
 }
 
 .container {
-  display: flex;
   width: 500px;
   clear: both;
-  justify-content: center !important;
-  align-content: center !important;
 }
 
 .container input {
