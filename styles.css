@@ -431,6 +431,7 @@ textarea {
   font-size: 15px;
   line-height: 1.5;
   border: 2px solid black;
+  resize: none;
 }
 
 textarea[type=text] {
@@ -447,7 +448,6 @@ textarea::placeholder {
 }
 
 input:focus {
-  border: none;
   outline: none;
   box-shadow: 0 0 0 3px var(--bg-color2);
 }
