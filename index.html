@@ -34,7 +34,7 @@
 
     <main>
         <div class="mobileMenu">
-            <div id="mobileLinks" style="text-align: center;">
+            <div id="mobileLinks" style="display: flex; justify-self: center;">
                 <a href="/index.html#about" class="mobile-link" onclick="mobileDropdownFunction()">About Me</a>
                 <a href="/index.html#edu" class="mobile-link" onclick="mobileDropdownFunction()">Education</a>
                 <a href="/index.html#exp" class="mobile-link" onclick="mobileDropdownFunction()">Experience</a>
@@ -45,171 +45,171 @@
         </div>
 
         <div class="limitedWidth" style="align-self: center;">
-        <!--About Me-->
-        <section class="aboutme-flex" id="about">
+            <!--About Me-->
+            <section class="aboutme-flex" id="about">
 
-            <!--About Me Portrait-->
-            <img src="/images/portrait.jpg" alt="Jay Shinde, Portrait" class="aboutme-portrait">
+                <!--About Me Portrait-->
+                <img src="/images/portrait.jpg" alt="Jay Shinde, Portrait" class="aboutme-portrait">
 
-            <!--About Me Info-->
-            <div class="aboutme-text-flex f box">
-                <h2>About Me</h2>
-                <p>I am an aspiring Software Engineer with interests in Application Development, Mathematics, FinTech, and Data Science. I eagerly seek growth through the cultivation of my skills and learning new technologies.
-                    <br><br>
-                    My passion is bridging the gap between the computer sciences and mathematics, from both a philosophical and technical standpoint, in a way that would encourage the engineering of clever solutions to significant problems that have an impact on the real world. 
-                    <br><br>
-                    Ultimately, having both a background in Mathematics as well as Computer Science, I hope to supplement my future endeavors as a Software Engineer using my skills in Mathematics as a foundation along with a pursuit for higher education.
-                </p>
-                <div class="aboutme-socials-flex">
-                    <a class="social-icon linkedin" href="https://www.linkedin.com/in/jayshinde0714/" target="_blank">
-                        <ion-icon name="logo-linkedin"></ion-icon>
+                <!--About Me Info-->
+                <div class="aboutme-text-flex f box">
+                    <h2>About Me</h2>
+                    <p>I am an aspiring Software Engineer with interests in Application Development, Mathematics, FinTech, and Data Science. I eagerly seek growth through the cultivation of my skills and learning new technologies.
+                        <br><br>
+                        My passion is bridging the gap between the computer sciences and mathematics, from both a philosophical and technical standpoint, in a way that would encourage the engineering of clever solutions to significant problems that have an impact on the real world. 
+                        <br><br>
+                        Ultimately, having both a background in Mathematics as well as Computer Science, I hope to supplement my future endeavors as a Software Engineer using my skills in Mathematics as a foundation along with a pursuit for higher education.
+                    </p>
+                    <div class="aboutme-socials-flex">
+                        <a class="social-icon linkedin" href="https://www.linkedin.com/in/jayshinde0714/" target="_blank">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                        <a class="social-icon github" href="https://github.com/jshinde842" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </div>
+                    <button class="btn blueBtn" style="min-width: 180px;" onclick="pageDisabledAlert()"> <!--onclick="window.location.href='https://jayshinde.dev/more-about-me.html';"-->
+                        <span>More About Me &rarr;</span>
+                    </button>
+                </div>
+            </section>
+
+            <!--Education-->
+            <section class="edu-flex tag f box" id="edu">
+                <h2>Education</h2>
+
+                <!--UCSD-->
+                <div class="edu-institution-flex f2">
+                    <h3 style="min-width: 250px;"><b>University of California,<br>San Diego</b><br><i style="font-size: .8em;"><br>September 2018 - July 2022</i></h3>
+                    <div>
+                        <p><i>Mathematics-Computer Science B.S.</i></p>
+                        <p class="f3">As a student at UCSD engaged in challenging curriculum in both Mathematics and Computer Science, I have had the opportunity
+                            to take technical classes that are often interweaved with each other.  <br>&nbsp;<br>
+                            Relevant Courses: Advanced Data Strutures, Systems Programming, Design and Analysis of Algorithms
+                            , Components and Design Techniques for Digital Systems, Software Engineering, Discrete Mathematics and Graph Theory, Numerical Analysis: Linear Algebra & Approximation & Nonlinear Equations, and Statistical Methods.
+                        </p>
+                    </div>
+                    <a class="institution-logo" href="https://ucsd.edu" target="_blank">
+                        <img src="images/ucsdLogo.png" alt="UCSD Logo" style="width:128px;height:128px;">
                     </a>
-                    <a class="social-icon github" href="https://github.com/jshinde842" target="_blank">
-                        <ion-icon name="logo-github"></ion-icon>
+                </div>
+            </section>
+
+            <!--Experience-->
+            <section class="exp-flex tag f box" id="exp">
+                <h2>Experience</h2>
+                <!--VerityStream-->
+                <div class="exp-institution-flex f2">
+                    <h3 style="min-width: 250px;"><b>VerityStream</b><br><i style="font-size: .8em;"><br>San Diego, CA<br>June 2021 - November 2021</i></h3>
+                    <div class="exp-institution-info-flex f2">
+                        <p><i>Software Development Intern</i></p>
+                        <p class="f3">At VerityStream, I was on the the Software Development team responsible for maintaining Credential Stream, which is a comprehensive provider lifecycle management solution.
+                        The team and I worked mainly full-stack in which I resolved query errors in the application’s database by creating and updating SQL scripts 
+                        in addition to updating the application user interface to correctly provide necessary access to back end data using
+                        JavaScript and HTML speeding up front-end response times by almost 100%. The features I worked on were deployed over the course of 20 bi-weekly sprints
+                        according to the established Azure DevOps services and schedules we used. On top of development, I was regularly involved in 
+                        project cost-time projections and priority-setting using AGILE methodology resulting in
+                        smooth workflow and communication between teams.
+                        </p>
+                    </div>
+                    <a class="institution-logo" href="https://www.veritystream.com" target="_blank">
+                        <img src="images/veritystreamLogo.png" alt="VerityStream Logo" style="width:100px;height:auto;">
                     </a>
                 </div>
-                <button class="btn blueBtn" style="min-width: 180px;" onclick="pageDisabledAlert()"> <!--onclick="window.location.href='https://jayshinde.dev/more-about-me.html';"-->
-                    <span>More About Me &rarr;</span>
+
+                <!--Nestle-->
+                <div class="exp-institution-flex f2">
+                    <h3 style="min-width: 250px;"><b>Nestle Toll House</b><br><i style="font-size: .8em;"><br>Eastvale, CA<br>October 2017 - August 2018</i></h3>
+                    <div class="exp-institution-info-flex f2">
+                        <p><i>Shift Lead</i></p>
+                        <p class="f3">Shift Lead at Nestle Toll House often entailed long hours of working the store. Responsible for all opening/closing operations and training of new employees. Duties included daily interactions with POS Software, customer service, baking, serving food, store finances, and cleaning.
+                        </p>
+                    </div>
+                    <a class="institution-logo" href="https://www.nestlecafe.com" target="_blank">
+                        <img src="images/nestleLogo.png" alt="Nestle Logo" style="width:100px;height:auto;">
+                    </a>
+                </div>
+
+                <!--Kumon-->
+                <div class="exp-institution-flex f2">
+                    <h3 style="min-width: 250px;"><b>Kumon North America</b><br><i style="font-size: .8em;"><br>Mira Loma, CA<br>August 2016 - August 2017</i></h3>
+                    <div class="exp-institution-info-flex f2">
+                        <p><i>Mathematics Tutor</i></p>
+                        <p class="f3">Educated young students through engaging math curriculum ranging from Algebra to Calculus. Properly articulated ideas and concepts in a manner where students would be engaged and curious with mathematics through the cultivation of their problem-solving and critical thinking skills. Worked with students of all backgrounds and ages, bolstering my ability to teach, learn, and communicate ideas in an all constructive environment.
+                        </p>
+                    </div>
+                    <a class="institution-logo" href="https://www.kumon.com" target="_blank">
+                        <img src="images/kumonLogo.png" alt="Kumon Logo" style="width:100px;height:auto;">
+                    </a>
+                </div>
+            </section>
+
+            <!--Projects-->
+            <section class="proj-flex tag f box" id = "proj">
+                <h2>Projects</h2>
+
+                <!--Budgeting Calculator-->
+                <div class="proj-project-flex f2">
+                    <h3 style="min-width: 250px;">Budgeting Calculator</h3>
+                    <div>
+                        <p class="f3">I made this script to help me and possibly you to budget your finances a little better using the 50/30/20 Rule. This tool uses 2022 Tax Information and includes factors in calculation of any 401(k) contributions the user may have in providing the resulting budget allowances.
+                        </p>
+                    </div>
+                    <button class="btn blueBtn" style="min-width: 180px;margin-top: 1.5em;align-self: flex-start;justify-self: end;" onclick="pageDisabledAlert()"> <!--onclick="window.location.href='https://jayshinde.dev/budgetcalc.html';"-->
+                        <span>Project Details &rarr;</span>
+                    </button>
+                </div>
+
+                <!--Formula 1-->
+                <div class="proj-project-flex f2">
+                    <h3 style="min-width: 250px;">Formula 1 Standings Predictions</h3>
+                    <div>
+                        <p class="f3"> Analysis of past Formula 1 Championship driver standings using machine learning to predict future performance of drivers and an exploration in whether or not external bias may affect the model.
+                        </p>
+                    </div>
+                    <button class="btn blueBtn" style="min-width: 180px;margin-top: 1.5em;align-self: flex-start;justify-self: end;" onclick="location.href='https://jayshinde.dev/project-formula1.html';"> <!--onclick="pageDisabledAlert()"-->
+                        <span>Project Details &rarr;</span>
+                    </button>
+                </div>
+
+                <!--Huffman-->
+                <div class="proj-project-flex f2">
+                    <h3 style="min-width: 250px;">Huffman Coding</h3>
+                    <div>
+                        <p class="f3">Lossless file compression tool using the Huffman algorithm through an implementation of the Huffman
+                        Coding Tree using data structures. Tool allows for lossless compression and decompression of files containing strings that are converted to/from
+                        ASCII values and encoded/decoded.
+                        </p>
+                    </div>
+                    <button class="btn blueBtn" style="min-width: 180px;margin-top: 1.5em;align-self: flex-start;justify-self: end;" onclick="pageDisabledAlert()"> <!--onclick="window.location.href='https://jayshinde.dev/huffman.html';"-->
+                        <span>Project Details &rarr;</span>
+                    </button>
+                </div>
+
+                <!--Traffic Lights-->
+                <div class="proj-project-flex f2">
+                    <h3 style="min-width: 250px;">Traffic Lights</h3>
+                    <div>
+                        <p class="f3">Traffic Controller implementation that simulates a 20-state intersection that gauges traffic to control the traffic
+                            lights. 6-Way intersection flow modeled using sequential and combinational logic.
+                        </p>
+                    </div>
+                    <button class="btn blueBtn" style="min-width: 180px;margin-top: 1.5em;align-self: flex-start;justify-self: end;" onclick="pageDisabledAlert()"> <!--onclick="window.location.href='https://jayshinde.dev/trafficlights.html';"-->
+                        <span>Project Details &rarr;</span>
+                    </button>
+                </div>
+            </section>
+
+            <!--Skills-->
+            <section>
+
+            </section>
+
+            <div style="text-align: center;">
+                <button class="btn topBtn" onclick="window.scrollTo({top: 0})">
+                    <span>Back to Top</span>
                 </button>
             </div>
-        </section>
-
-        <!--Education-->
-        <section class="edu-flex tag f box" id="edu">
-            <h2>Education</h2>
-
-            <!--UCSD-->
-            <div class="edu-institution-flex f2">
-                <h3 style="min-width: 250px;"><b>University of California,<br>San Diego</b><br><i style="font-size: .8em;"><br>September 2018 - July 2022</i></h3>
-                <div>
-                    <p><i>Mathematics-Computer Science B.S.</i></p>
-                    <p class="f3">As a student at UCSD engaged in challenging curriculum in both Mathematics and Computer Science, I have had the opportunity
-                        to take technical classes that are often interweaved with each other.  <br>&nbsp;<br>
-                        Relevant Courses: Advanced Data Strutures, Systems Programming, Design and Analysis of Algorithms
-                        , Components and Design Techniques for Digital Systems, Software Engineering, Discrete Mathematics and Graph Theory, Numerical Analysis: Linear Algebra & Approximation & Nonlinear Equations, and Statistical Methods.
-                    </p>
-                </div>
-                <a class="institution-logo" href="https://ucsd.edu" target="_blank">
-                    <img src="images/ucsdLogo.png" alt="UCSD Logo" style="width:128px;height:128px;">
-                </a>
-            </div>
-        </section>
-
-        <!--Experience-->
-        <section class="exp-flex tag f box" id="exp">
-            <h2>Experience</h2>
-            <!--VerityStream-->
-            <div class="exp-institution-flex f2">
-                <h3 style="min-width: 250px;"><b>VerityStream</b><br><i style="font-size: .8em;"><br>San Diego, CA<br>June 2021 - November 2021</i></h3>
-                <div class="exp-institution-info-flex f2">
-                    <p><i>Software Development Intern</i></p>
-                    <p class="f3">At VerityStream, I was on the the Software Development team responsible for maintaining Credential Stream, which is a comprehensive provider lifecycle management solution.
-                    The team and I worked mainly full-stack in which I resolved query errors in the application’s database by creating and updating SQL scripts 
-                    in addition to updating the application user interface to correctly provide necessary access to back end data using
-                    JavaScript and HTML speeding up front-end response times by almost 100%. The features I worked on were deployed over the course of 20 bi-weekly sprints
-                    according to the established Azure DevOps services and schedules we used. On top of development, I was regularly involved in 
-                    project cost-time projections and priority-setting using AGILE methodology resulting in
-                    smooth workflow and communication between teams.
-                    </p>
-                </div>
-                <a class="institution-logo" href="https://www.veritystream.com" target="_blank">
-                    <img src="images/veritystreamLogo.png" alt="VerityStream Logo" style="width:100px;height:auto;">
-                </a>
-            </div>
-
-            <!--Nestle-->
-            <div class="exp-institution-flex f2">
-                <h3 style="min-width: 250px;"><b>Nestle Toll House</b><br><i style="font-size: .8em;"><br>Eastvale, CA<br>October 2017 - August 2018</i></h3>
-                <div class="exp-institution-info-flex f2">
-                    <p><i>Shift Lead</i></p>
-                    <p class="f3">Shift Lead at Nestle Toll House often entailed long hours of working the store. Responsible for all opening/closing operations and training of new employees. Duties included daily interactions with POS Software, customer service, baking, serving food, store finances, and cleaning.
-                    </p>
-                </div>
-                <a class="institution-logo" href="https://www.nestlecafe.com" target="_blank">
-                    <img src="images/nestleLogo.png" alt="Nestle Logo" style="width:100px;height:auto;">
-                </a>
-            </div>
-
-            <!--Kumon-->
-            <div class="exp-institution-flex f2">
-                <h3 style="min-width: 250px;"><b>Kumon North America</b><br><i style="font-size: .8em;"><br>Mira Loma, CA<br>August 2016 - August 2017</i></h3>
-                <div class="exp-institution-info-flex f2">
-                    <p><i>Mathematics Tutor</i></p>
-                    <p class="f3">Educated young students through engaging math curriculum ranging from Algebra to Calculus. Properly articulated ideas and concepts in a manner where students would be engaged and curious with mathematics through the cultivation of their problem-solving and critical thinking skills. Worked with students of all backgrounds and ages, bolstering my ability to teach, learn, and communicate ideas in an all constructive environment.
-                    </p>
-                </div>
-                <a class="institution-logo" href="https://www.kumon.com" target="_blank">
-                    <img src="images/kumonLogo.png" alt="Kumon Logo" style="width:100px;height:auto;">
-                </a>
-            </div>
-        </section>
-
-        <!--Projects-->
-        <section class="proj-flex tag f box" id = "proj">
-            <h2>Projects</h2>
-
-            <!--Budgeting Calculator-->
-            <div class="proj-project-flex f2">
-                <h3 style="min-width: 250px;">Budgeting Calculator</h3>
-                <div>
-                    <p class="f3">I made this script to help me and possibly you to budget your finances a little better using the 50/30/20 Rule. This tool uses 2022 Tax Information and includes factors in calculation of any 401(k) contributions the user may have in providing the resulting budget allowances.
-                    </p>
-                </div>
-                <button class="btn blueBtn" style="min-width: 180px;margin-top: 1.5em;align-self: flex-start;justify-self: end;" onclick="pageDisabledAlert()"> <!--onclick="window.location.href='https://jayshinde.dev/budgetcalc.html';"-->
-                    <span>Project Details &rarr;</span>
-                </button>
-            </div>
-
-            <!--Formula 1-->
-            <div class="proj-project-flex f2">
-                <h3 style="min-width: 250px;">Formula 1 Standings Predictions</h3>
-                <div>
-                    <p class="f3"> Analysis of past Formula 1 Championship driver standings using machine learning to predict future performance of drivers and an exploration in whether or not external bias may affect the model.
-                    </p>
-                </div>
-                <button class="btn blueBtn" style="min-width: 180px;margin-top: 1.5em;align-self: flex-start;justify-self: end;" onclick="location.href='https://jayshinde.dev/project-formula1.html';"> <!--onclick="pageDisabledAlert()"-->
-                    <span>Project Details &rarr;</span>
-                </button>
-            </div>
-
-            <!--Huffman-->
-            <div class="proj-project-flex f2">
-                <h3 style="min-width: 250px;">Huffman Coding</h3>
-                <div>
-                    <p class="f3">Lossless file compression tool using the Huffman algorithm through an implementation of the Huffman
-                    Coding Tree using data structures. Tool allows for lossless compression and decompression of files containing strings that are converted to/from
-                    ASCII values and encoded/decoded.
-                    </p>
-                </div>
-                <button class="btn blueBtn" style="min-width: 180px;margin-top: 1.5em;align-self: flex-start;justify-self: end;" onclick="pageDisabledAlert()"> <!--onclick="window.location.href='https://jayshinde.dev/huffman.html';"-->
-                    <span>Project Details &rarr;</span>
-                </button>
-            </div>
-
-            <!--Traffic Lights-->
-            <div class="proj-project-flex f2">
-                <h3 style="min-width: 250px;">Traffic Lights</h3>
-                <div>
-                    <p class="f3">Traffic Controller implementation that simulates a 20-state intersection that gauges traffic to control the traffic
-                        lights. 6-Way intersection flow modeled using sequential and combinational logic.
-                    </p>
-                </div>
-                <button class="btn blueBtn" style="min-width: 180px;margin-top: 1.5em;align-self: flex-start;justify-self: end;" onclick="pageDisabledAlert()"> <!--onclick="window.location.href='https://jayshinde.dev/trafficlights.html';"-->
-                    <span>Project Details &rarr;</span>
-                </button>
-            </div>
-        </section>
-
-        <!--Skills-->
-        <section>
-
-        </section>
-
-        <div style="text-align: center;">
-            <button class="btn topBtn" onclick="window.scrollTo({top: 0})">
-                <span>Back to Top</span>
-            </button>
-        </div>
 
         </div>
     </main>
