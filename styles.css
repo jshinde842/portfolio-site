@@ -87,7 +87,6 @@ nav ul a:hover {
   color: var(--bg-color1);
   padding: 3em;
   display: none;
-  font-size: 64px;
 }
 .hamburgerMenu:hover {
   color: black;
