@@ -78,6 +78,9 @@ nav ul a:hover {
   overflow: hidden;
   background-color: #333;
   position: relative;
+}
+
+.mobileLinks{
   display: none;
 }
 
@@ -499,7 +502,7 @@ footer {
   .navigation {
     display: none;
   }
-  .mobileMenu {
+  .hamburgerMenu {
     display: block;
   }
   body h2{
