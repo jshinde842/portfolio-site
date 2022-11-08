@@ -84,7 +84,12 @@ nav ul a:hover {
 }
 
 .hamburgerMenu {
+  color: var(--bg-color1);
+  padding: 3em;
   display: none;
+}
+.hamburgerMenu:hover {
+  color: black;
 }
 
 .mobileMenu a {
