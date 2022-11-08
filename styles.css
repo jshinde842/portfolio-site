@@ -8,7 +8,7 @@
     --outline: white; 
     --notchSize: 20px;
 }
-:not(#responsive){
+.limitedWidth {
   max-width: 2000px;
 }
 
