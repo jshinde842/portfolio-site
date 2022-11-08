@@ -87,7 +87,7 @@ nav ul a:hover {
   display: none;
 }
 
-.mobile-link a {
+.mobileMenu a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
@@ -95,7 +95,7 @@ nav ul a:hover {
   display: block;
 }
 
-.mobile-link a:hover {
+.mobileMenu a:hover {
   background-color: #ddd;
   color: black;
 }
