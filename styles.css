@@ -503,7 +503,7 @@ footer {
     display: none;
   }
   .hamburgerMenu {
-    display:inline-block !important;
+    display: block!important;
     z-index: 4;
   }
   body h2{
