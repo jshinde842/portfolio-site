@@ -504,6 +504,7 @@ footer {
   }
   .hamburgerMenu {
     display:inline-block !important;
+    z-index: 4;
   }
   body h2{
     font-size: 3em !important;
