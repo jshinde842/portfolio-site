@@ -506,7 +506,7 @@ footer {
 }
 @media only screen and (max-width: 1153px) {
   header nav h1 a{
-    padding-left:1em;
+    padding-left: 0;
     font-size: 4em;
   }
   .navigation {
