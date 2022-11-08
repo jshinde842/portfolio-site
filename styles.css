@@ -83,11 +83,11 @@ nav ul a:hover {
   display: none;
 }
 .menuIcon {
-  font-size: 64px;
+  font-size: 128px;
 }
 .hamburgerMenu {
   color: var(--bg-color1);
-  padding: 3em;
+  padding: 1em;
   display: none;
 }
 .hamburgerMenu:hover {
