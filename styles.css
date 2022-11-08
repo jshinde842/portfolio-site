@@ -82,7 +82,9 @@ nav ul a:hover {
 #mobileLinks{
   display: none;
 }
-
+.menuIcon {
+  font-size: 64px;
+}
 .hamburgerMenu {
   color: var(--bg-color1);
   padding: 3em;
