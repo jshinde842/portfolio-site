@@ -73,6 +73,9 @@ nav ul a:hover {
     --_p: 100%
 }
 
+.hamburgerMenu {
+  display: none;
+}
 
 .mobileMenu {
   overflow: hidden;

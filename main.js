@@ -12,4 +12,5 @@ function mobileDropdownFunction() {
     } else {
       x.style.display = "block";
     }
-  }
+    return false;
+}
