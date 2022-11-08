@@ -503,7 +503,7 @@ footer {
     display: none;
   }
   .hamburgerMenu {
-    display: block;
+    display: block !important;
   }
   body h2{
     font-size: 3em !important;
