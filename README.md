@@ -1,5 +1,6 @@
-Welcome to the source files for my portfolio site!
+Welcome to the source files for my personal portfolio site!
 
 Link: [jayshinde.dev](https://jayshinde.dev)
 
-I used raw HTML/CSS/JS.
+Tech Stack: HTML5, CSS3, Vanilla JS
+
