@@ -15,8 +15,8 @@ function mobileDropdownFunction() {
     return false;
 }
 
-const sF = document.getElementById("smallFlipboard");
-const lF = document.getElementById("largeFlipboard");
+let sF = document.getElementById("smallFlipboard");
+let lF = document.getElementById("largeFlipboard");
 console.log("test")
 console.log(screen.width)
 if (screen.width < 1153) {
