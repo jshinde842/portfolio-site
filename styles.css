@@ -507,11 +507,10 @@ footer {
   border-top: 2px solid var(--border-color)
 }
 
-#flipboard {
-  width:5em;
-  height: auto;
+#smallFlipboard {
+  display:none;
 }
-#rounded{
+#largeFlipboard{
   width: 450px;
 	height: 450px;
 	-moz-border-radius: 1% 50% 30% 0;
@@ -603,6 +602,12 @@ footer {
   }
   .topBtn {
     margin-top: 2em;
+  }
+  #smallFlipboard {
+    display:block;
+  }
+  #largeFlipboard {
+    display:none;
   }
 }
 
