@@ -506,6 +506,11 @@ footer {
   box-sizing: border-box;
   border-top: 2px solid var(--border-color)
 }
+
+#flipboard {
+  width:5em;
+  height: auto;
+}
 @media only screen and (min-width: 1154px) {
   .mobileMenu {
     display: none;
