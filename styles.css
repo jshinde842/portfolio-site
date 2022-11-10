@@ -513,9 +513,11 @@ footer {
   }
   .smallFlipboard {
     visibility: hidden;
+    display: none;
   }
   .largeFlipboard {
     visibility: visible;
+    display: block;
   }
 }
 @media only screen and (max-width: 1153px) {
@@ -593,9 +595,11 @@ footer {
   }
   .smallFlipboard {
     visibility: visible;
+    display: block;
   }
   .largeFlipboard {
     visibility: hidden;
+    display: none;
   }
 }
 
