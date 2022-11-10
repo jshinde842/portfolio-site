@@ -17,6 +17,8 @@ function mobileDropdownFunction() {
 
 const sF = document.getElementById("smallFlipboard");
 const lF = document.getElementById("largeFlipboard");
+console.log("test")
+console.log(screen.width)
 if (screen.width < 1153) {
     sF.width = "300";
     sF.height = "600";
@@ -28,5 +30,5 @@ if (screen.width < 1153) {
     sF.height = "0";
     lF.width = "970";
     lF.height = "250";
-    console.log("small")
+    console.log("large")
 }
