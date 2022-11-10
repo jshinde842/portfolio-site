@@ -656,5 +656,8 @@ footer {
   .fbVeryBig {
     display: none;
   }
+  body p{
+    font-size: 1.2em;  
+  }
 }
 
