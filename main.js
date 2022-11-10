@@ -15,10 +15,9 @@ function mobileDropdownFunction() {
     return false;
 }
 
-var sWidth = screen.width;
-var s = document.getElementById("smallFlipboard");
-var l = document.getElementById("largeFlipboard");
-if (sWidth < 1153) {
+const s = document.getElementById("smallFlipboard");
+const l = document.getElementById("largeFlipboard");
+if (screen.width < 1153) {
     s.width = "300";
     s.height = "600";
     l.width = "0";
