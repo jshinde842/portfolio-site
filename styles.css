@@ -507,6 +507,21 @@ footer {
   border-top: 2px solid var(--border-color)
 }
 
+.abtPage-flex {
+  display: flex;
+  flex-direction: row;
+  padding: 3em;
+  margin: 3em;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.abtPage-flex p{
+  padding-left: 1.5;
+  padding-right: 1.5em;
+  line-height: 1.5;
+}
+
 @media only screen and (min-width: 1154px) {
   .mobileMenu {
     display: none;
