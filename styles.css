@@ -522,21 +522,6 @@ footer {
   line-height: 1.5;
 }
 
-@media only screen and (min-width: 1840px) {
-  .mobileMenu {
-    display: none;
-  }
-  .fbSmall {
-    display: none;
-  }
-  .fbBig {
-    display: none;
-  }
-  .fbVeryBig {
-    display: block;
-  }
-}
-
 @media only screen and (min-width: 1154px) {
   .mobileMenu {
     display: none;
@@ -546,9 +531,6 @@ footer {
   }
   .fbBig {
     display: block;
-  }
-  .fbVeryBig {
-    display: none;
   }
 }
 @media only screen and (max-width: 1153px) {
@@ -628,9 +610,6 @@ footer {
     display: block;
   }
   .fbBig {
-    display: none;
-  }
-  .fbVeryBig {
     display: none;
   }
 }
