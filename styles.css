@@ -512,10 +512,10 @@ footer {
     display: none;
   }
   .smallFlipboard {
-    display: none;
+    display: none !important;
   }
   .largeFlipboard {
-    display: block;
+    display: block !important;
   }
 }
 @media only screen and (max-width: 1153px) {
@@ -592,10 +592,10 @@ footer {
     margin-top: 2em;
   }
   .smallFlipboard {
-    display: block;
+    display: block !important;
   }
   .largeFlipboard {
-    display: none;
+    display: none !important;
   }
 }
 
