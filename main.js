@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let lF = document.getElementById("largeFlipboard");
         console.log("test")
         console.log(screen.width)
-        console.log(document.getElementById("largeFlipboard").getAttribute(width))
+        console.log(document.getElementById("largeFlipboard").getAttribute("width"))
         console.log(document.getElementById("largeFlipboard").width)
         if (screen.width < 1153) {
             sF.width = "300";
