@@ -19,13 +19,13 @@ var sWidth = screen.width;
 var s = document.getElementById("smallFlipboard");
 var l = document.getElementById("largeFlipboard");
 if (sWidth < 1153) {
-    s.width = 300;
-    s.height = 600;
-    l.width = 0;
-    l.height = 0;
+    s.width = "300";
+    s.height = "600";
+    l.width = "0";
+    l.height = "0";
 } else {
-    s.width = 0;
-    s.height = 0;
-    l.width = 970;
-    l.height = 250;
+    s.width = "0";
+    s.height = "0";
+    l.width = "970";
+    l.height = "250";
 }
