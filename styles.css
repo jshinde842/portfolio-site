@@ -511,14 +511,6 @@ footer {
   .mobileMenu {
     display: none;
   }
-  .smallFlipboard {
-    visibility: hidden;
-    display: none;
-  }
-  .largeFlipboard {
-    visibility: visible;
-    display: block;
-  }
 }
 @media only screen and (max-width: 1153px) {
   header nav h1 a{
@@ -592,14 +584,6 @@ footer {
   }
   .topBtn {
     margin-top: 2em;
-  }
-  .smallFlipboard {
-    visibility: visible;
-    display: block;
-  }
-  .largeFlipboard {
-    visibility: hidden;
-    display: none;
   }
 }
 
