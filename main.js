@@ -1,3 +1,25 @@
+document.addEventListener("DOMContentLoaded", function () {
+    let sF = document.getElementById("smallFlipboard");
+        let lF = document.getElementById("largeFlipboard");
+        console.log("test")
+        console.log(screen.width)
+        console.log(document.getElementById("largeFlipboard").getAttribute(width))
+        console.log(document.getElementById("largeFlipboard").width)
+        if (screen.width < 1153) {
+            sF.width = "300";
+            sF.height = "600";
+            lF.width = "0";
+            lF.height = "0";
+            console.log("small")
+        } else {
+            sF.width = "0";
+            sF.height = "0";
+            lF.width = "970";
+            lF.height = "250";
+            console.log("large")
+        }
+  });
+
 if(!window.location.hash) {
     location.hash = '#home';
 }
