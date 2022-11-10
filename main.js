@@ -15,16 +15,18 @@ function mobileDropdownFunction() {
     return false;
 }
 
-const s = document.getElementById("smallFlipboard");
-const l = document.getElementById("largeFlipboard");
+const sF = document.getElementById("smallFlipboard");
+const lF = document.getElementById("largeFlipboard");
 if (screen.width < 1153) {
-    s.width = "300";
-    s.height = "600";
-    l.width = "0";
-    l.height = "0";
+    sF.width = "300";
+    sF.height = "600";
+    lF.width = "0";
+    lF.height = "0";
+    console.log("small")
 } else {
-    s.width = "0";
-    s.height = "0";
-    l.width = "970";
-    l.height = "250";
+    sF.width = "0";
+    sF.height = "0";
+    lF.width = "970";
+    lF.height = "250";
+    console.log("small")
 }
