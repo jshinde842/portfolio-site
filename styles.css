@@ -511,11 +511,9 @@ footer {
   .mobileMenu {
     display: none;
   }
-  .smallFlipboard {
-    display: none !important;
-  }
   .largeFlipboard {
-    display: block !important;
+    width: 970px;
+    height: 250px;
   }
 }
 @media only screen and (max-width: 1153px) {
@@ -590,12 +588,6 @@ footer {
   }
   .topBtn {
     margin-top: 2em;
-  }
-  .smallFlipboard {
-    display: block !important;
-  }
-  .largeFlipboard {
-    display: none !important;
   }
 }
 
