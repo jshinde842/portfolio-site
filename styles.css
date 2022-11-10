@@ -511,9 +511,11 @@ footer {
   .mobileMenu {
     display: none;
   }
+  .smallFlipboard {
+    visibility: hidden;
+  }
   .largeFlipboard {
-    width: 970px;
-    height: 250px;
+    visibility: visible;
   }
 }
 @media only screen and (max-width: 1153px) {
@@ -588,6 +590,12 @@ footer {
   }
   .topBtn {
     margin-top: 2em;
+  }
+  .smallFlipboard {
+    visibility: visible;
+  }
+  .largeFlipboard {
+    visibility: hidden;
   }
 }
 
