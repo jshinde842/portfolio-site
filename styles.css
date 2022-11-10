@@ -511,6 +511,9 @@ footer {
   .mobileMenu {
     display: none;
   }
+  .smallFlipboard {
+    display: none;
+  }
 }
 @media only screen and (max-width: 1153px) {
   header nav h1 a{
@@ -584,6 +587,9 @@ footer {
   }
   .topBtn {
     margin-top: 2em;
+  }
+  .largeFlipboard {
+    display: none;
   }
 }
 
