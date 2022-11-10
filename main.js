@@ -14,3 +14,12 @@ function mobileDropdownFunction() {
     }
     return false;
 }
+
+$(function () {
+    var width = 0,
+    flipboard = document.getElementById('flipboard');
+    width = flipboard.getBoundingClientRect().width ? flipboard.getBoundingClientRect().width : flipboard.offsetWidth;
+    if (width > 800) {
+      flipboard.innerHTML = '<iframe width="100%" frameborder="0" height="600px" marginheight="0" marginwidth="0" scrolling="no" src="https://flipboard.com/section/the-internet-of-things-bn8l9H"></iframe>'
+    }
+})();

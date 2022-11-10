@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jay Shinde's Portfolio</title>
+    <meta name="Jay Shinde's Portfolio" content="Overview">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+</head>
+
+<body> 
+    <header id="home responsive">
+        <nav>
+            <!--Default NavBar-->
+            <h1><a href="/index.html">Jay Shinde</a></h1>
+            <ul class="navigation">
+                <li><a href="/index.html#about" class="nav-link">About Me</a></li>
+                <li><a href="/index.html#edu" class="nav-link">Education</a></li>
+                <li><a href="/index.html#exp" class="nav-link">Experience</a></li>
+                <li><a href="/index.html#proj" class="nav-link">Projects</a></li>
+                <!--<li><a href="/index.html#skills" class="nav-link">Skills</a></li>-->
+                <li><a href="/contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!--Mobile-->
+            <a href="#" class="hamburgerMenu" onclick="mobileDropdownFunction()">
+                <ion-icon name="menu-outline" class="menuIcon"></ion-icon>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="mobileMenu">
+            <div id="mobileLinks" style="text-align: center;">
+                <a href="/index.html#about" class="mobile-link" onclick="mobileDropdownFunction()">About Me</a>
+                <a href="/index.html#edu" class="mobile-link" onclick="mobileDropdownFunction()">Education</a>
+                <a href="/index.html#exp" class="mobile-link" onclick="mobileDropdownFunction()">Experience</a>
+                <a href="/index.html#proj" class="mobile-link" onclick="mobileDropdownFunction()">Projects</a>
+                <!--<a href="/index.html#skills" class="mobile-link" onclick="mobileDropdownFunction()">Skills</a>-->
+                <a href="/contact.html" class="mobile-link">Contact</a>
+            </div>
+        </div>
+
+        <div class="limitedWidth" style="margin: auto;">
+            <button type="button" class="btn topBtn" style="min-width: 170px;margin-left: 4em;margin-top: 2em;" onclick="location.href='https://jayshinde.dev/index.html'">
+                <span>&larr; Back to Home</span>
+            </button>
+            <!--Bulk Project Section-->
+            <section class="project-flex tag f box">
+                <div id=“flipboard“></div>
+            </section>
+
+            <div style="text-align: center;">
+                <button class="btn topBtn" onclick="window.scrollTo({top: 0})">
+                    <span>Back to Top</span>
+                </button>
+            </div>
+        </main>
+    </div>
+    
+    <footer>
+        <div style="text-align: center; color: var(--bg-color2)">
+            &copy; Copyright 2022 Jay Shinde
+        </div>
+    </footer>
+</body>
+</html>
