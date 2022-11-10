@@ -511,7 +511,10 @@ footer {
   .mobileMenu {
     display: none;
   }
-  .fb {
+  .fbSmall {
+    display: none;
+  }
+  .fbBig {
     display: block;
   }
 }
@@ -588,7 +591,10 @@ footer {
   .topBtn {
     margin-top: 2em;
   }
-  .fb {
+  .fbSmall {
+    display: block;
+  }
+  .fbBig {
     display: none;
   }
 }
