@@ -510,10 +510,11 @@ footer {
 .abtPage-flex {
   display: flex;
   flex-direction: column;
-  padding: 3em;
+  padding: 2em;
   margin: 3em;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .abtmeContainer p{
