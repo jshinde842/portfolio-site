@@ -68,5 +68,15 @@
             &copy; Copyright 2022 Jay Shinde
         </div>
     </footer>
+    <script>
+        $(function () {
+          var width = 0,
+          flipboard = document.getElementById('flipboard');
+          width = flipboard.getBoundingClientRect().width ? flipboard.getBoundingClientRect().width : flipboard.offsetWidth;
+          if (width > 800) {
+            flipboard.innerHTML = '<iframe width="100%" frameborder="0" height="600px" marginheight="0" marginwidth="0" scrolling="no" src="https://flipboard.com/@jayshinde2022/jay-s-magazine-6fjssdcpz?from=share&utm_source=flipboard&utm_medium=share"></iframe>'
+          }
+        })();
+      </script>
 </body>
 </html>
