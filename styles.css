@@ -507,9 +507,6 @@ footer {
   border-top: 2px solid var(--border-color)
 }
 
-#smallFlipboard {
-  display:none;
-}
 #largeFlipboard{
   width: 450px;
 	height: 450px;
@@ -528,6 +525,9 @@ footer {
 @media only screen and (min-width: 1154px) {
   .mobileMenu {
     display: none;
+  }
+  #smallFlipboard {
+    display:none;
   }
 }
 @media only screen and (max-width: 1153px) {
