@@ -23,6 +23,7 @@ body {
 body h2{
   color: var(--bg-color2);
   font-size: 2em;
+  white-space:nowrap;
 }
 body h3{
   color: var(--bg-color2);
