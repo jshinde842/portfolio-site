@@ -22,13 +22,15 @@ body {
 
 body h2{
   color: var(--bg-color2);
-  font-size: 1em;
+  font-size: 2em;
 }
 body h3{
   color: var(--bg-color2);
+  font-size: 1.25em;
 }
 body p{
   color: var(--bg-color2);
+  font-size: 1em;
 }
 
 .box {
