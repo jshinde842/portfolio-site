@@ -535,7 +535,6 @@ footer {
   margin-top: 2em;
 }
 .fbContainer {
-  margin-bottom: 2em;
   margin-top: 2em;
 }
 
@@ -681,6 +680,9 @@ footer {
   .marginify {
     margin-left:1em;
     margin-right:1em;
+  }
+  .fbContainer {
+    margin-bottom: 2em;
   }
 }
 
