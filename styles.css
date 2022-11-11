@@ -536,6 +536,7 @@ footer {
 }
 .fbContainer {
   margin-top: 2em;
+  margin-bottom: 4em;
 }
 
 @media only screen and (min-width: 2000px) {
