@@ -673,6 +673,7 @@ footer {
   .backBtn {
     margin-top: 6em !important;
     margin-bottom: 4em;
+    margin-left: 1em !important;
   }
   .fbSmall {
     display: block;
