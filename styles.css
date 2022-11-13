@@ -404,9 +404,6 @@ ion-icon {
 .yellowBtn:hover span {
   color: var(--bg-color2);
 }
-.topBtnMargin {
-  margin-top: 3em !important;
-}
 .topBtn {
   margin-top: 0;
   border: 2px solid var(--border-color);
@@ -701,6 +698,9 @@ footer {
   }
   .fbContainer {
     margin-bottom: 2em;
+  }
+  .topBtnMargin {
+    margin-top: 3em !important;
   }
 }
 
