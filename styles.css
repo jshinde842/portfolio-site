@@ -434,6 +434,11 @@ ion-icon {
   align-items: center;
 }
 
+.project-info {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 .project-info p{
   padding-left: 1em;
 }
@@ -626,11 +631,6 @@ footer {
   .proj-project-flex {
     flex-direction: column;
     flex-wrap: nowrap;
-  }
-
-  .project-info {
-    padding-left: 2em;
-    padding-right: 2em;
   }
 
   main {
