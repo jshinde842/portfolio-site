@@ -434,6 +434,10 @@ ion-icon {
   align-items: center;
 }
 
+.project-info p{
+  padding-left: 1em;
+}
+
 .container {
   width: 500px;
   clear: both;
