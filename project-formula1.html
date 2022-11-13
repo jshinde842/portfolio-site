@@ -62,13 +62,25 @@
 
                 <!--Project Info-->
                 <div class="project-info">
-                    <h3><i>Technology Stack</i></h3>
-                    <p>Jupyter Notebook, Python, Julia, NumPy, Pandas, MatPlotLib, SciKit-Learn</p>
+                    <h3>
+                        <i>Technology Stack</i>
+                    </h3>
+                    <p>
+                        Jupyter Notebook, Python, Julia, NumPy, Pandas, MatPlotLib, SciKit-Learn
+                    </p>
                     <br>
-                    <h3><i>Objective</i></h3>
-                    <p>This project was conducted to find a way to predict the future performance of a Formula 1 Driver. There must be a function that can model a driver's performance from which we can observe the rate of improvement or decline in their previous performances and create a prediction of their future improvement by calculating their performance trajectory using linear regression. I uncover the presence of external bias on the model if any.</p>
+
+                    <h3>
+                        <i>Objective</i>
+                    </h3>
+                    <p>
+                        This project was conducted to find a way to predict the future performance of a Formula 1 Driver. There must be a function that can model a driver's performance from which we can observe the rate of improvement or decline in their previous performances and create a prediction of their future improvement by calculating their performance trajectory using linear regression. I uncover the presence of external bias on the model if any.
+                    </p>
                     <br>
-                    <h3><i>Approach</i></h3>
+
+                    <h3>
+                        <i>Approach</i>
+                    </h3>
                     <p>
                         The first step in predicting the performance of a driver is to have their previous championships' standings stored in an accessible and mutable data format. I used Pandas, an open-source data analysis tool, to manipulate the CSVs containing the data and filter out all rows and columns not applicable to the drivers under study. Next, I retrieved all relevant data and stored it in Numpy arrays and used MatPlotLib to visualize the data of the drivers defining the independent variable as the <i>n</i><sup>th</sup> race completed and explanatory variable as the driver's finishing position enumerated from 1 to 20. 
                         <br><br>After charting the data for two drivers on the same plot, there was difficulty in realizing a relationship between the variables. Consequently, I used SKLearn's Linear regression and train-test-split modules to fit the independent variable to the regressor. After the training the model using the CSV data, I charted the predictive test data and recieved a y-intercept value and coefficient value, unique to each driver. 
