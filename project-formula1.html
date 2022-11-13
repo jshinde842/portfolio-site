@@ -73,8 +73,8 @@
                         <br><br>After charting the data for two drivers on the same plot, there was difficulty in realizing a relationship between the variables. Consequently, I used SKLearn's Linear regression and train-test-split modules to fit the independent variable to the regressor. After the training the model using the CSV data, I charted the predictive test data and recieved a y-intercept value and coefficient value, unique to each driver. 
                         <br><br> The y-intercept represents the expected finishing position of the driver for their 0th race. In other words, the y-intercept represented the expected performance of the driver at the beginning of their career. The coefficient for each driver is much more interesting, as this value defines the rate of change of the driver's performance throughout their career. A negative coefficient suggests the driver gets better race by race and reaches a higher finishing position throughout their career, and vice-versa. A numerically large coefficient represents a larger improvement or decline between races. 
                         <br><br> 
-                            $$x+1\over\sqrt{1-x^2}\label{ref1}$$
-                            $$position(x) = $$
+                            $$1: p(r) = -0.03019339(r) + 5.79165713$$
+                            $$2: p(r) = -0.06664188(r) + 12.02118485$$
                         <br><br>Now that each driver's predictive model has a y-intercept and coefficient, it's possible to functionally define a line and observe the behaviour of the explanatory variable past the last point of the independent variable. In the specific study I conducted, I noticed that one driver started their career fairly bad start to their career(high y-intercept) but managed to improve exceedingly well (large negative coefficient). The other driver started their career decently (low y-intercept) but was very slow in long-term improvement (small negative coefficient). However, both drivers are expected to finish 1st place. That's not possible, is it? <br><br>
                     </p>
                     <br>
