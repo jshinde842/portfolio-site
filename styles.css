@@ -628,6 +628,11 @@ footer {
     flex-wrap: nowrap;
   }
 
+  .project-info {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
   main {
     font-size: 20px;
     margin: 1em;
