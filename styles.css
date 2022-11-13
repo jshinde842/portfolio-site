@@ -404,7 +404,9 @@ ion-icon {
 .yellowBtn:hover span {
   color: var(--bg-color2);
 }
-
+.topBtnMargin {
+  margin-top: 3em;
+}
 .topBtn {
   margin-top: 0;
   border: 2px solid var(--border-color);
@@ -668,7 +670,7 @@ footer {
     font-size: 32px;
   }
   .topBtn {
-    margin-top: 3em;
+    margin-top: 2em;
   }
   .backBtn {
     margin-top: 6em !important;
