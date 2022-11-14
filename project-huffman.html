@@ -97,7 +97,7 @@
                         Uncompress
                     </h4>
                     <p style="padding-left:2em;">
-                        The uncompress program intuitively works in reverse from the compress program. First, the compressed file's header containing the sequence of Huffman Codes is read. I reconstruct the frequency vector and reconstruct the Huffman Coding Tree using this vector. Next, I simply re-read the compressed file's header and follow the path giving by each individual input Huffman Code. The output is the decoded sequence of characters that was in the original uncompressed file. These characters are then written to a new file which should be identical to the original reference file that was compressed.
+                        The uncompress program intuitively works in reverse from the compress program. First, the compressed file's header containing the sequence of Huffman Codes is read. I build the frequency vector and reconstruct the Huffman Coding Tree using this vector. Next, I simply re-read the compressed file's header and follow the path giving by each individual input Huffman Code. The output is the decoded sequence of characters that was in the original uncompressed file. These characters are then written to a new file which should be identical to the original reference file that was compressed.
                    </p>
                     <br>
                 </div>
