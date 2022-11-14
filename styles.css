@@ -445,6 +445,9 @@ ion-icon {
 .project-info p{
   padding-left: 1em;
 }
+.project-info h4{
+  padding-left: 1em;
+}
 
 .container {
   width: 500px;
