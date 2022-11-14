@@ -82,7 +82,7 @@
                     <p>
                          In order to compress or uncompress a file, a Huffman Code must be constructed. A Huffman Code is a type of optimal, variable-length prefix code used to distinguish ASCII characters from one another. In this particular implementation, I construct the Huffman Code using a binary trie. Each character that will be encoded or decoded must have its own unique Huffman Code. This binary trie representation is the pivot around which the compress and uncompress programs operate. The compress program reads in data from a file and constructs a Huffman Coding Tree from which the sequence of Huffman Codes are written into the header of the compressed file. The uncompress program works in reverse; the Huffman Code sequence is read from the compressed file header and used to reconstruct the original Huffman Coding Tree. From there, the original document can be reconstructed. 
                     </p>
-                    <img style="text-align: center;" src="/images/huffman.png" alt="Huffman Coding Tree" class="huffmanPicture">
+                    <img style="margin: auto;" src="/images/huffman.png" alt="Huffman Coding Tree" class="huffmanPicture">
                     <h4>
                         Compress
                     </h4>
